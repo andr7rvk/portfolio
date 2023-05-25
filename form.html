@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <script defer src="form.js"></script>
+    <title>Form</title>
+
+</head>
+<body> 
+    <div class="block">
+    <video autoplay loop muted>
+        <source src="vid_portfolio.mp4">
+    </video>
+    <nav>
+        <h2 class="logo">Andrea Ramarielina</h2>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="musiques.html">Musiques</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+        </ul>
+        <button type='button'>Contact</button>
+    </nav>
+    <section id="contact">
+        <div class="container">
+            <h1>Formulaire de contact</h1>
+            <form id="form">
+                <p>Une question ? </p>
+                <h3>Restez en contact en l'envoyant ci-dessous !</h3>
+                <hr>
+                <div class="name-field">
+                    <div class="input-control">
+                        <label for="nom">Nom : </label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="input-control">
+                        <label for="prénom">Prénom : </label>
+                        <input type="text" id="prénom" name="prénom" placeholder="Votre prénom">
+                    </div>
+                    <div class="input-control">
+                        <label for="adressem">Adresse mail : </label>
+                        <input type="text" id="adressem" name="adressem" placeholder="Votre adresse mail">
+                    </div>
+                    <div class="nom-2">
+                        <label for="texte">Votre texte : </label>
+                        <textarea id="texte">Votre texte...</textarea>               
+                    </div>
+                </div>
+                <button type="submit" id="btn1">Envoyer</button>
+                <div class="message">
+                    <h4 id="messrep">Merci pour votre message, </h4>
+                    <p id="suitemess">Vous pouvez continuer de visiter le site si ça vous chante !</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
